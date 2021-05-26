@@ -7,6 +7,7 @@ const dbo = require("../db/conn");
 
 app.post("photo/upload", function (req, res) {
     let db_connect = dbo.getDb();
+    console.log('upload received');
 
     let newPhoto = {
         filename: req.body.filename,
