@@ -12,7 +12,7 @@ module.exports = {
         client.connect(function (err, db) {
             _db = db.db("ko-collins-sibley-com");
             
-            console.log("Successfully connected to myFirstDatabase.");
+            console.log("Successfully connected to ko-collins-sibley.");
             return callback(err);
         });
     },
